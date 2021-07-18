@@ -1,67 +1,19 @@
-p {
-  color: rgb(26, 2, 49) !important;
-  font-weight: normal !important;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
-  /*background-color: rgb(173, 184, 243);*/
-  /*rgba с прозрачностью а=0.2 или 20% видимости*/
-  background-color: rgba(173, 184, 243, 0.2);
-}
-
-h2 {
-  color: #4000ff;
-}
-
-#p1 {
-  color: red;
-  opacity: 0.5;
-}
-
-#p2,
-#p3 {
-  color: orange;
-}
-
-.yellowMark {
-  background-color: yellow;
-}
-
-.bigFontP {
-  font-size: 20px;
-}
-
-/*
-color
-1 стандартное название (blue)
-2 функция rgb 
-например rgb(0, 0, 255)
-3 16 -константа (#0000ff)
+/* свойство display 
+отвечает за отображение блоков информации
+- block (столбик)
+- inline (строка)
+- inline-block (размещение блоков в строку)
 */
 
-.myDiv {
-  border: 5px outset red;
-  text-align: center;
-}
-.myDiv3 {
-  border: 10px outset yellow;
-  text-align: left;
-  font-size: 20px;
-}
-.blueMark {
-  background-color: rgba(0, 0, 255, 0.2);
+.textColumn {
+  display: inline-block;
+  width: 49%; /*ширина блока*/
+  text-align: justify;
+  border: 1px solid blue;
+  box-sizing: border-box;
 }
 
-.divBox {
-  /*
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 35px;
-  margin-bottom: 40px;
-  //margin: 20px 35px 40px 30px
-  padding: 5px;
-  */
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
+span {
+  display: inline;
+  border: 5px solid red;
 }
