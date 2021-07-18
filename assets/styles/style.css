@@ -13,6 +13,24 @@ h2 {
   color: #4000ff;
 }
 
+#p1 {
+  color: red;
+  opacity: 0.5;
+}
+
+#p2,
+#p3 {
+  color: orange;
+}
+
+.yellowMark {
+  background-color: yellow;
+}
+
+.bigFontP {
+  font-size: 20px;
+}
+
 /*
 color
 1 стандартное название (blue)
@@ -20,3 +38,30 @@ color
 например rgb(0, 0, 255)
 3 16 -константа (#0000ff)
 */
+
+.myDiv {
+  border: 5px outset red;
+  text-align: center;
+}
+.myDiv3 {
+  border: 10px outset yellow;
+  text-align: left;
+  font-size: 20px;
+}
+.blueMark {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.divBox {
+  /*
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 35px;
+  margin-bottom: 40px;
+  //margin: 20px 35px 40px 30px
+  padding: 5px;
+  */
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
