@@ -1,0 +1,22 @@
+p {
+  color: rgb(26, 2, 49) !important;
+  font-weight: normal !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  /*background-color: rgb(173, 184, 243);*/
+  /*rgba с прозрачностью а=0.2 или 20% видимости*/
+  background-color: rgba(173, 184, 243, 0.2);
+}
+
+h2 {
+  color: #4000ff;
+}
+
+/*
+color
+1 стандартное название (blue)
+2 функция rgb 
+например rgb(0, 0, 255)
+3 16 -константа (#0000ff)
+*/
